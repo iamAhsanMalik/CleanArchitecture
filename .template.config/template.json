@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Ahsan Joyia",
+  "classifications": [
+    "C#",
+    "ASP.NET Core",
+    "Web API",
+    "Clean Architecture",
+    ".NET 7"
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project",
+    "framework": "net7.0",
+    "template": "clean architecture"
+  },
+  "identity": "CleanArchitecture.NET",
+  "name": "ASP.NET Core WebAPI Boilerplate with clean architecture",
+  "description": "Get a head start on building your next ASP.NET Core WebAPI with our Boilerplate that leverages the power of Clean Architecture. Our robust template offers a solid foundation for your project, enabling you to focus on crafting high-quality code and delivering exceptional results. Start developing faster and more efficiently with our ASP.NET Core WebAPI Boilerplate built on clean architecture principles.",
+  "shortName": "api-ca",
+  "sourceName": "CleanArchitecture",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "README.md",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        ".vs/**/*",
+        ".vscode/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "**/.github/**",
+        ".gitignore",
+        "nuget.config",
+        "CODE_OF_CONDUCT.md",
+        "*.nuspec"
+      ]
+    }
+  ],
+  "primaryOutputs": [
+    {
+      "path": "./"
+    }
+  ],
+  "postActions": [
+    {
+      "description": "Restore NuGet packages required by this project.",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet restore'"
+        }
+      ],
+      "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+      "continueOnError": true
+    },
+    {
+      "description": "Generate a migration for the database.",
+      "manualInstructions": [
+        {
+          "text": "Run 'dotnet ef migrations add <migration_name> --project <project_name>'"
+        }
+      ],
+      "actionId": "4F3BC259-1181-4A8F-9B84-1A2BBE2A7EF8",
+      "continueOnError": true
+    }
+  ]
+}

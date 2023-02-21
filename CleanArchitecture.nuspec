@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+
+    <id>CleanArchitecture.Boilerplate</id>
+    <version>1.0.0</version>
+    <title>ASP.NET Core WebAPI Boilerplate with clean architecture</title>
+    <authors>Ahsan Joyia</authors>
+    <description>Get a head start on building your next ASP.NET Core WebAPI with our Boilerplate
+      that leverages the power of Clean Architecture. Our robust template offers a solid foundation
+      for your project, enabling you to focus on crafting high-quality code and delivering
+      exceptional results. Start developing faster and more efficiently with our ASP.NET Core WebAPI
+      Boilerplate built on clean architecture principles.</description>
+    <summary>
+      The ASP.NET Core WebAPI Boilerplate is a template based on Clean Architecture principles that
+      provides a solid foundation for building high-quality projects, allowing developers to focus
+      on crafting exceptional code and achieving superior results.
+    </summary>
+
+    <releaseNotes>
+      <summary>
+        Welcome to ASP.NET Core WebAPI Boilerplate v1.0! Jumpstart your projects with ease thanks to
+        our built-in features:
+      </summary>
+      <item>Secure and seamless authentication using JWT</item>
+      <item>Easily manage API changes with versioning</item>
+      <item>Ensure API inputs are always valid with Fluent Validation</item>
+      <item>Implement a scalable and maintainable architecture with MediatR and CQRS</item>
+      <item>Effortlessly document your API with Swagger and versioning support</item>
+    </releaseNotes>
+
+    <projectUrl>
+      https://github.com/AhsanJoyia/CleanArchitecture.NET</projectUrl>
+    <repository type="git" url="https://github.com/AhsanJoyia/CleanArchitecture.NET.git"
+      branch="main" />
+
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>
+      <tag>C#</tag>
+      <tag>.NET 7</tag>
+      <tag>ASP.NET Core</tag>
+      <tag>Web API</tag>
+      <tag>Clean Architecture</tag>
+      <tag>Boilerplate</tag>
+    </tags>
+    <icon>CleanArchitecture.png</icon>
+    <readme>README.md</readme>
+
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+
+  </metadata>
+
+  <files>
+    <file src=".template.config\CleanArchitecture.png" />
+    <file src="README.md" />
+    <file src=".\**" target="content"
+      exclude="**\bin\**;**\obj\**;**\.git\**;**\.github\**;**\.nuget.config\**;**\*.user;**\.vs\**;**\.vscode\**;**\.filelist\**;.gitignore;**\Images\**;**\Logs\**" />
+  </files>
+
+</package>
