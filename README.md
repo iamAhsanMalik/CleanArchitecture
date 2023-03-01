@@ -1,8 +1,7 @@
-<img align="left" width="116" height="116" src="https://raw.githubusercontent.com/ahsanjoyia/CleanArchitecture/main/.github/CleanArchitecture.png" />
+<img align="left" width="116" height="116" src="https://github.com/AhsanJoyia/CleanArchitecture/blob/main/.template.config/CleanArchitecture.png" />
 
 # ASP.NET Core WebAPI Boilerplate with Clean Architecture
 
-![Twitter Follow](https://img.shields.io/twitter/follow/iamahsanjoyia?label=Follow&style=social)
 
 <br/>
 
